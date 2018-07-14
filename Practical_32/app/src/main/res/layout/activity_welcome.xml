@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.parul.practical_3.WelcomeActivity">
+
+    <RelativeLayout
+        android:layout_width="365dp"
+        android:layout_height="498dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="16dp">
+
+        <TextView
+            android:id="@+id/txtdisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="139dp"
+            android:layout_marginStart="139dp"
+            android:layout_marginTop="126dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/txtdisplay"
+            android:layout_alignLeft="@+id/txtdisplay"
+            android:layout_alignRight="@+id/txtdisplay"
+            android:layout_alignStart="@+id/txtdisplay"
+            android:text="Welcom" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
